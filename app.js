@@ -129,7 +129,7 @@ function createIntern() {
       {
         type: "input",
         name: "schoolName",
-        message: "Where did the intern go to school",
+        message: "Where did the intern go to school?",
       },
     ])
     .then(function (response) {

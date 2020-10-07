@@ -20,7 +20,7 @@ function teamCreate() {
         type: "list",
         name: "role",
         message: "What team member would you like to add",
-        choices: ["Manager", "Engineer", "Intern", "finish creating team."],
+        choices: ["Engineer", "Intern", "finish creating team."],
       },
     ])
     .then(function (response) {
@@ -42,22 +42,22 @@ function createTeamManager() {
       {
         type: "input",
         name: "name",
-        message: "What is the team managers name?",
+        message: "What is the team team managers name?",
       },
       {
         type: "input",
         name: "id",
-        message: "what is the managers ID number?",
+        message: "what is the team managers ID number?",
       },
       {
         type: "input",
         name: "email",
-        message: "what is the managers email?",
+        message: "what is the team managers email?",
       },
       {
         type: "input",
         name: "officeNumber",
-        message: "What is the managers office number?",
+        message: "What is the team managers office number?",
       },
     ])
     .then(function (response) {
